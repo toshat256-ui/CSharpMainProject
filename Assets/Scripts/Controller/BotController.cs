@@ -6,7 +6,7 @@ using Model;
 using Model.Config;
 using UnityEngine;
 using Utilities;
-//YOODOUBLE
+//YOO
 //hello
 //How are you?
 //i'm fine
@@ -75,3 +75,4 @@ namespace Controller
         }
     }
 }
+
