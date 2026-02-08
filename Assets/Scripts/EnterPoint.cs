@@ -17,7 +17,7 @@ public class EnterPoint : MonoBehaviour
      * 
      * 
      * 
-     */*/
+     /*/
     void Start()
     {
         Time.timeScale = _timeScale;
