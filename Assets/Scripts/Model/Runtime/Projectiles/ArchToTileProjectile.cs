@@ -28,10 +28,10 @@ namespace Model.Runtime.Projectiles
             float totalDistance = _totalDistance;
 
             //////////////////////////////////////
-            float f = 0f;
-            float maxHeight = 0.6f;
-            // здесь должна была быть строчка float localHeight = maxHeight * (-(t * 2f - 1f) * (t * 2f - 1f) + 1f),  
-            //но программа писала ошибку, и чтобы код заработал пришлось убрать
+            float _t = 1f;
+            float maxHeight = totalDistance * 0.6f;
+            localHeight = maxHeight * (-(_t * 2 - 1) * (_t * 2 - 1) + 1);
+            
             ///////////////////////////////////////
 
 
