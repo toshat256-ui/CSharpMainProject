@@ -12,16 +12,57 @@ namespace UnitBrains.Player
         private float _temperature = 0f;
         private float _cooldownTime = 0f;
         private bool _overheated;
-        
+
         protected override void GenerateProjectiles(Vector2Int forTarget, List<BaseProjectile> intoList)
         {
             float overheatTemperature = OverheatTemperature;
             ///////////////////////////////////////
             // Homework 1.3 (1st block, 3rd module)
-            ///////////////////////////////////////           
-            var projectile = CreateProjectile(forTarget);
-            AddProjectileToList(projectile, intoList);
+            //подзадание а.
+
+            void GetTemperature(float OverheatTempirature, float _temperature)
+            {
+                float Temperature = _temperature + OverheatTempirature;
+
+                for (int a = 0; a < 1; a++)
+                    if (Temperature >= overheatTemperature)
+
+                        return;
+
+                void GenerateP();
+                float Temperature = GetTemperature();
+                if (Temperature >= overheatTemperature)
+                    return;
+
+
+
+
+            }
+
+
+
             ///////////////////////////////////////
+              IncreaseTemperature();
+            //2 задание. 
+
+            
+
+                int projectilenumber = (int)Temperature;
+              
+                {
+                for (int i = 1; i == projectilenumber; i++) 
+                    
+                }
+                var projectile = CreateProjectile(forTarget);
+
+                AddProjectileToList(projectile, intoList);
+                //подзадание2
+
+
+
+
+                ///////////////////////////////////////
+            }
         }
 
         public override Vector2Int GetNextStep()
@@ -33,6 +74,8 @@ namespace UnitBrains.Player
         {
             ///////////////////////////////////////
             // Homework 1.4 (1st block, 4rd module)
+
+
             ///////////////////////////////////////
             List<Vector2Int> result = GetReachableTargets();
             while (result.Count > 1)
