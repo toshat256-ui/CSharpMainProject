@@ -24,7 +24,7 @@ namespace UnitBrains.Player
  {
      float Temperature = _temperature + OverheatTempirature;
 
-     for (int a = 0; a < 1; a++)
+     for (int a = 0; a <= 1; a++)
          if (Temperature >= overheatTemperature)
              return;
 
@@ -98,3 +98,4 @@ namespace UnitBrains.Player
     }
 
 }
+
