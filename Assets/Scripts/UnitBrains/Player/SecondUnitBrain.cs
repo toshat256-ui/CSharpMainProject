@@ -19,6 +19,7 @@ namespace UnitBrains.Player
             ///////////////////////////////////////
             // Homework 1.3 (1st block, 3rd module)
              //подзадание а.
+             
 
  void GetTemperature(float OverheatTempirature, float _temperature)
  {
@@ -98,4 +99,5 @@ namespace UnitBrains.Player
     }
 
 }
+
 
