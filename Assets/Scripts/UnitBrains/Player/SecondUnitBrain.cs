@@ -40,7 +40,8 @@ namespace UnitBrains.Player
      int projectilenumber = (int)Temperature;
    
      {
-     for (int i = 1; i == projectilenumber; i++) 
+     for (int i = 1; i == projectilenumber; i++)
+
 
      //у меня был ваниант for (int i = 1; i == Temperature; i++), но с этим вариантом и тот, что в итоге не получилось. Не очень понятно как приписать кол-во снорядов = температуре. 
          
@@ -99,5 +100,6 @@ namespace UnitBrains.Player
     }
 
 }
+
 
 
