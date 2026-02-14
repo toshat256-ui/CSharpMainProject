@@ -29,11 +29,7 @@ namespace UnitBrains.Player
 
                         return;
 
-                void GenerateP();
-                float Temperature = GetTemperature();
-                if (Temperature >= overheatTemperature)
-                    return;
-
+              
 
 
 
@@ -43,14 +39,10 @@ namespace UnitBrains.Player
 
             ///////////////////////////////////////
               IncreaseTemperature();
-            //2 задание. 
-
-            
-
-                int projectilenumber = (int)Temperature;
+           
               
                 {
-                for (int i = 1; i == projectilenumber; i++) 
+                for (int i = 1; i = Temperature; i++) ; 
                     
                 }
                 var projectile = CreateProjectile(forTarget);
@@ -63,7 +55,7 @@ namespace UnitBrains.Player
 
                 ///////////////////////////////////////
             }
-        }
+        
 
         public override Vector2Int GetNextStep()
         {
