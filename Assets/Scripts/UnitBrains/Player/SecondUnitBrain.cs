@@ -47,6 +47,7 @@ namespace UnitBrains.Player
                 }
                 var projectile = CreateProjectile(forTarget);
 
+
                 AddProjectileToList(projectile, intoList);
                 //подзадание2
 
